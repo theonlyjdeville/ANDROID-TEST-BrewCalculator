@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainContainer"
+    android:background="#fff5fd">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Profile"
+        android:id="@+id/createProfileButton"
+        android:textSize="40dp"
+        android:background="#927fff"
+        android:layout_marginBottom="51dp"
+        android:layout_above="@+id/loadProfileButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load Profile"
+        android:id="@+id/saveProfileButton"
+        android:textSize="40dp"
+        android:background="#927fff"
+        android:layout_marginBottom="218dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/loadProfileButton"
+        android:layout_alignStart="@+id/loadProfileButton" />
+
+      <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Profile"
+        android:id="@+id/loadProfileButton"
+        android:textSize="40dp"
+        android:background="#927fff"
+        android:layout_marginBottom="52dp"
+          android:layout_above="@+id/saveProfileButton"
+          android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
